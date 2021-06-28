@@ -1,6 +1,7 @@
 <script lang="ts">
   export let name: string;
   import FetchUsers from "./FetchUsers.svelte";
+  import PostTest from "./PostTest.svelte";
   // const users = (async () => {
   //   const res = await fetch("http://localhost:3000/users");
   //   return await res.json();
@@ -16,6 +17,7 @@
 </main>
 
 <FetchUsers />
+<PostTest />
 
 <!-- {#await users}
   <p>loading...</p>

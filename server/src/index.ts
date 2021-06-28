@@ -35,6 +35,7 @@ import cors from "cors";
 
   app.post("/test", async (req, res) => {
     const data = req.body;
+    console.log(data);
     return res.send({ hmm: data });
   });
 
