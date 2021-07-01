@@ -2,10 +2,6 @@
   export let name: string;
   import FetchUsers from "./FetchUsers.svelte";
   import PostTest from "./PostTest.svelte";
-  // const users = (async () => {
-  //   const res = await fetch("http://localhost:3000/users");
-  //   return await res.json();
-  // })();
 </script>
 
 <main>
@@ -19,13 +15,6 @@
 <FetchUsers />
 <PostTest />
 
-<!-- {#await users}
-  <p>loading...</p>
-{:then data}
-  {#each data as { id, email, name }}
-    <p>{name} {email} {id}</p>
-  {/each}
-{/await} -->
 <style>
   main {
     text-align: center;
